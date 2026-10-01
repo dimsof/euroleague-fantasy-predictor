@@ -1,0 +1,3 @@
+Season,Round,Gamecode,Team,IsStarter,IsPlaying,Points,FieldGoalsMade2,FieldGoalsAttempted2,FieldGoalsMade3,FieldGoalsAttempted3,FreeThrowsMade,FreeThrowsAttempted,OffensiveRebounds,DefensiveRebounds,TotalRebounds,Assistances,Steals,Turnovers,BlocksFavour,BlocksAgainst,FoulsCommited,FoulsReceived,Valuation,Plusminus
+2025,29,289,PAN,5.0,5.0,99,25,40,8,27,25,29,9,19,28,23,5,8,4,2,19,26,118,-25.0
+2025,29,289,PRS,5.0,5.0,104,18,36,17,36,17,20,10,25,35,23,4,11,2,4,26,19,106,25.0

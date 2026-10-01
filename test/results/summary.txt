@@ -1,0 +1,96 @@
+======================================================================
+PER-COMPONENT ANALYSIS (per game — actual minutes)
+======================================================================
+  FG2M_40     MAE=  1.13  RMSE=  1.54  Bias= +0.05  InRange= 34.2%  PIR_impact=  3.39
+  FG2A_40     MAE=  1.50  RMSE=  2.02  Bias= +0.02  InRange= 34.5%  PIR_impact=  1.50
+  FG3M_40     MAE=  0.70  RMSE=  1.03  Bias= +0.03  InRange= 44.1%  PIR_impact=  2.80
+  FG3A_40     MAE=  1.10  RMSE=  1.56  Bias= +0.01  InRange= 41.6%  PIR_impact=  1.10
+  FTM_40      MAE=  1.22  RMSE=  1.75  Bias= -0.00  InRange= 41.4%  PIR_impact=  2.44
+  FTA_40      MAE=  1.49  RMSE=  2.10  Bias= -0.01  InRange= 39.6%  PIR_impact=  1.49
+  REB_40      MAE=  1.43  RMSE=  1.90  Bias= +0.02  InRange= 33.8%  PIR_impact=  1.43
+  AST_40      MAE=  1.06  RMSE=  1.49  Bias= +0.04  InRange= 34.9%  PIR_impact=  1.06
+  STL_40      MAE=  0.64  RMSE=  0.87  Bias= +0.01  InRange= 36.5%  PIR_impact=  0.64
+  BLK_40      MAE=  0.30  RMSE=  0.55  Bias= +0.01  InRange= 64.0%  PIR_impact=  0.30
+  TOV_40      MAE=  0.89  RMSE=  1.21  Bias= -0.06  InRange= 36.3%  PIR_impact=  0.89
+  FD_40       MAE=  1.10  RMSE=  1.49  Bias= -0.01  InRange= 35.9%  PIR_impact=  1.10
+  FC_40       MAE=  1.16  RMSE=  1.82  Bias= -0.20  InRange= 36.4%  PIR_impact=  1.16
+  BA_40       MAE=  0.35  RMSE=  0.55  Bias= -0.01  InRange= 54.8%  PIR_impact=  0.35
+
+======================================================================
+PIR PREDICTION ANALYSIS
+======================================================================
+
+  Game Prediction (actual minutes — projected vs actual):
+    MAE:  5.28
+    RMSE: 7.04
+    Bias: +0.60
+    Floor/Ceiling Hit Rate: 86.0%
+
+  Rate Prediction (PIR per 40):
+    MAE:  12.86
+    RMSE: 21.20
+    Bias: +0.28
+
+  Hit Rate by GP bucket:
+    GP 1-5   : Hit= 66.9%  MAE= 5.27  (n=719)
+    GP 6-10  : Hit= 86.2%  MAE= 5.10  (n=1417)
+    GP 11-20 : Hit= 88.8%  MAE= 5.27  (n=2398)
+    GP 21+   : Hit= 88.6%  MAE= 5.38  (n=2545)
+
+  Hit Rate by Round (sample):
+    Round 6  : Hit= 77.4%  MAE= 5.25  (n=212)
+    Round 10 : Hit= 80.2%  MAE= 5.36  (n=217)
+    Round 15 : Hit= 87.6%  MAE= 5.18  (n=209)
+    Round 20 : Hit= 84.5%  MAE= 5.86  (n=213)
+    Round 25 : Hit= 87.4%  MAE= 5.69  (n=214)
+    Round 30 : Hit= 88.9%  MAE= 4.64  (n=217)
+    Round 35 : Hit= 89.3%  MAE= 4.92  (n=215)
+    Round 38 : Hit= 87.6%  MAE= 5.24  (n=225)
+
+======================================================================
+PER-PLAYER ANALYSIS
+======================================================================
+
+  Top 10 most predictable players (lowest MAE):
+    NOGUES, ISAAC             MAE= 1.06  Hit= 90.0%  (n=10)
+    DOS SANTOS, YAGO          MAE= 1.67  Hit=100.0%  (n=22)
+    GRIGONIS, MARIUS          MAE= 1.76  Hit= 75.0%  (n=12)
+    VILLAR, RAFA              MAE= 1.77  Hit= 83.3%  (n=24)
+    DANGUBIC, NEMANJA         MAE= 1.95  Hit=100.0%  (n=10)
+    KALAITZAKIS, PANAGIOTIS   MAE= 2.10  Hit= 77.3%  (n=22)
+    DAVIDOVAC, DEJAN          MAE= 2.19  Hit= 87.5%  (n=16)
+    TARPEY, TERRY             MAE= 2.41  Hit= 81.5%  (n=27)
+    SESTINA, NATHAN           MAE= 2.46  Hit= 90.0%  (n=10)
+    MARCOS, JUANI             MAE= 2.48  Hit= 96.0%  (n=25)
+
+  Top 10 least predictable players (highest MAE):
+    WATSON, GLYNN             MAE= 8.16  Hit= 88.0%  (n=25)
+    JONES, CARLIK             MAE= 8.19  Hit= 90.0%  (n=10)
+    NUNN, KENDRICK            MAE= 8.31  Hit= 92.3%  (n=26)
+    PUNTER, KEVIN             MAE= 8.61  Hit= 87.5%  (n=32)
+    SHIELDS, SHAVON           MAE= 8.67  Hit= 86.7%  (n=30)
+    WRIGHT IV, MCKINLEY       MAE= 8.72  Hit= 75.8%  (n=33)
+    EDWARDS, CARSEN           MAE= 8.76  Hit= 90.3%  (n=31)
+    FORREST, TRENT            MAE= 8.93  Hit= 82.6%  (n=23)
+    MUSA, DZANAN              MAE= 9.57  Hit= 75.0%  (n=16)
+    BUTLER, JARED             MAE=11.06  Hit= 80.0%  (n=30)
+
+======================================================================
+PER-PLAYER PER-COMPONENT VOLATILITY
+======================================================================
+
+  Mean actual volatility (std of actual per-game) across players:
+    FG2M_40   : actual_std=  1.43  prediction_MAE=  1.12
+    FG2A_40   : actual_std=  1.97  prediction_MAE=  1.49
+    FG3M_40   : actual_std=  0.86  prediction_MAE=  0.69
+    FG3A_40   : actual_std=  1.41  prediction_MAE=  1.09
+    FTM_40    : actual_std=  1.48  prediction_MAE=  1.21
+    FTA_40    : actual_std=  1.79  prediction_MAE=  1.47
+    REB_40    : actual_std=  1.84  prediction_MAE=  1.42
+    AST_40    : actual_std=  1.33  prediction_MAE=  1.06
+    STL_40    : actual_std=  0.75  prediction_MAE=  0.63
+    BLK_40    : actual_std=  0.41  prediction_MAE=  0.30
+    TOV_40    : actual_std=  0.97  prediction_MAE=  0.89
+    FD_40     : actual_std=  1.37  prediction_MAE=  1.10
+    FC_40     : actual_std=  1.18  prediction_MAE=  1.15
+    BA_40     : actual_std=  0.44  prediction_MAE=  0.34
